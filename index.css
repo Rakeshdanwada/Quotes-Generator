@@ -92,3 +92,7 @@ img{
     border: 1px solid rgb(40, 229, 23);
     color: #333;
 }
+.fab{
+    color:green;
+    font-size: 30px;
+}
