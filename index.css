@@ -87,3 +87,8 @@ img{
     background: transparent;
     color: #333;
 }
+.quote-box button:nth-child(3){
+    background: transparent;
+    border: 1px solid rgb(40, 229, 23);
+    color: #333;
+}
