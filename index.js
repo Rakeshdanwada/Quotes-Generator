@@ -13,5 +13,8 @@ async function getQuote(url) {
 getQuote(api_url);
 
 function tweet(){
-    window.open(" https://twitter.com/intent/tweet?text= " + quote.innerHTML + " --- by" + author.innerHTML, "Tweet Window", "width=600 , height=400");
+    window.open(" https://twitter.com/intent/tweet?text= " + quote.innerHTML +" --- by" + author.innerHTML, "Tweet Window", "width=600 , height=400");
+}
+function whatsapp(){
+window.open("https://api.whatsapp.com/send?phone=" + quote.innerHTML +" --- by" + author.innerHTML, "whatsapp Window", "width=600 , height=400" )
 }
